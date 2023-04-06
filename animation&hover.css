@@ -1,0 +1,82 @@
+/* HERO-SECTION-HOVER-ANIMATION */
+.icon:hover {
+  color: #f5b400;
+  cursor: pointer;
+  transform: translatey(-0.5rem);
+}
+.exp-btn:hover,
+.link-container li a:hover {
+  color: #f5b400;
+}
+.btn-1:hover,
+.btn-2:hover {
+  background-color: #f5b40044;
+  transform: translatey(-0.5rem);
+}
+
+.img:hover::after {
+  background: none;
+}
+
+/*ABOUT-ME-SECTION-HOVER-ANIMATION*/
+
+/*KEY-FRAMES*/
+@keyframes moveDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100rem);
+  }
+
+  80% {
+    opacity: 0.7;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes easein {
+  0% {
+    opacity: 0;
+    transform: translateY(100rem);
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes easein-2 {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes easein-up {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+
+  90% {
+    opacity: 0;
+    transform: translatey(10rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translatey(0);
+  }
+}
